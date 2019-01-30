@@ -1,9 +1,124 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>DELI-VERY</title>
+        <title>Burger Online</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
+    <section class="header"
+    <figure id="figure">
+      <img src="http://static.wixstatic.com/media/6cfe27_c21008288ed3487a8450323c3a36fe30~mv2.jpg" width="1430" height="450">
+    </figure>
+
+   </section>
     <body>
-        <h1>Hello World!!!</h1>
+        <main>
+          <h1>Welcome to burger online</h1>
+          <h3 id="homeofyour">Home of your favorite burgers</h3>
+            <section class="selectb">
+              <br>
+              <h3 id="sel">Select your favorite burger here</h3>
+              <p id="selbody">
+                  <label for="selectburger"></label><br>
+                  <select id="selectburgerdropdown" name="sb">
+                      <option> Delicious Dragon Dream</option>
+                      <option> Tripple Tower Treat</option>
+                      <option> Meatless Madness</option>
+                  <br>
+                  </select>
+               </p>
+             <br>
+             <br>
+             <div class="wrapper">
+               <div class="header1">
+                <h4> Delicious Dragon Dream </h4>
+              </div>
+
+              <div class="img1">
+                <img src="https://nuevaya.com.ni/wp-content/uploads/2019/01/20150728-homemade-whopper-food-lab-35-1500x1125.jpg" alt="Burger" width="450" height="400" title="This hamburger is great, buy it!">
+              </div>
+
+                <div class="text1">
+                <u1> <li>750 kCal</li> </u1>
+                <u1><li>VERY GOOD</li></u1>
+                <u1> <li>CONTAINS <span class="allergies">GLUTEN</span> </li> </u1>
+              </div>
+
+              <div class="header2">
+                  <h4> Tripple Tower Treat </h4>
+              </div>
+
+              <div class="img2">
+                  <img src="https://www.theburgerspriest.com/wp-content/uploads/2018/05/Judgement-Day.jpg" alt="Burger" width="450" height="400" title="I mean, it's a lot, but it's worth it.">
+              </div>
+
+                <div class="text2">
+                  <u1> <li>1500 kCal</li> </u1>
+                  <u1><li>VERY NICE</li></u1>
+                  <u1> <li><span class="allergies">GLUTEN</span> FREE </li> </u1>
+                </div>
+
+             <div class="header3">
+                 <h4> Meatless Madness </h4>
+            </div>
+            <div class="img3">
+                 <img src="https://img1.cookinglight.timeinc.net/sites/default/files/styles/4_3_horizontal_-_1200x900/public/1504121694/black-bean-mushroom-burgers-1710p22.jpg?itok=kYV1CSzJ" alt="Burger" width="450" height="400" title="SAVE THE PLANET BUY THIS ONE!!!!!!!!!!!!!!!!">
+           </div>
+                <div class="text3">
+                 <u1> <li>650kCal</li> </u1>
+                 <u1><li>VERY TASTY</li></u1>
+                 <u1> <li> CONTAINS <span class="allergies">GLUTEN</span></li> </u1>
+               </div>
+          </div>
+              <br>
+        </section>
+
+          <h3>Delivery Information</h3>
+          <p id="delinfo">Provide us your neccessary information</p>
+          <section class="customerinfo">
+          <fieldset>
+          <!-- <h4>Delivery information</h4> -->
+            <p>
+             <label for="firstlastname">Name</label><br>
+             <input type="text" id="firstlastname" name="fn" required="required" placeholder="Full name">
+            </p>
+            <p>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="em" required="required" placeholder="E-mail address">
+            </p>
+            <p>
+                <label for="street">Street</label><br>
+                <input type="street" id="street" name="st" required="required" placeholder="Street">
+            </p>
+            <p>
+                <label for="house">House</label><br>
+                <input type="house" id="house" name="ho" required="required" placeholder="House number">
+            </p>
+            <p>
+                <label for="payment">Payment options</label><br>
+                <select id="payment" name="pmt">
+                    <option>Credit card</option>
+                    <option>Swish</option>
+                    <option>Get burger for free</option>
+                    <option>Cash</option>
+                </select>
+             </p>
+                <p>
+                    <label for="gender">Gender</label><br>
+                    <br>
+                    <input type="radio" id="female" name="fm" value="Female">
+                    Female<br>
+                    <input type="radio" id="male" name="m" value="Male">
+                    Male<br>
+                    <input type="radio" id="other" name="m" value="Male">
+                    Other<br>
+                    <br>
+         <button type="submit"><img src="https://us.123rf.com/450wm/martialred/martialred1512/martialred151200026/49796744-stock-vector-fast-shipping-delivery-truck-flat-icon-for-apps-and-websites.jpg?ver=6" width="17"> Place order</button>
+         </fieldset>
+          </section>
+
+        </main>
     </body>
+<footer> © Online Burger AB</footer>
 </html>
